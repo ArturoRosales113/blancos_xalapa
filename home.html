@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <link rel="icon" type="image/png" href="" />
+    
+    <title>Nosotros</title>
+    
+    <!--Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Styles -->
+    <link href="./css/bxl.css" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-amarillo px-5">
+        <a class="navbar-brand" href="{{ route('front.index') }}">
+            <img src="{{ asset('img/logo.svg') }}"  alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end text-white" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('front.actividades') }}">Actividades</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ route('front.galeria') }}">Galerías</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('front.contacto') }}">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Contenido -->
+    <section>
+        <div class="row align-items-center justify-content-center cover-section index">
+        </div>
+    </section>
+    <div class="container-fluid">
+        <section>
+            <div class="row">
+                <!-- Salas -->
+                <div class="col-6 cover-section" style="background-image: url('./img/Home/sala.jpg')">
+                    <div class="row align-items-center justify-content-center h-100">
+                        <div class="col-10 text-center">
+                            <h3 class="category-title">Salas</h3>
+                            <p class="bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi unde impedit nam eveniet veniam natus soluta ab provident neque nemo.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dormitorio -->
+                <div class="col-6 cover-section" style="background-image: url('./img/Home/dormitorio.jpg')">
+                    <div class="row align-items-center justify-content-center h-100">
+                        <div class="col-10 text-center">
+                            <h3 class="category-title">Dormitorio</h3>
+                            <p class="bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi unde impedit nam eveniet veniam natus soluta ab provident neque nemo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <!-- Comedor -->
+                <div class="col-6 cover-section" style="background-image: url('./img/Home/comedor.jpg')">
+                    <div class="row align-items-center justify-content-center h-100">
+                        <div class="col-10 text-center">
+                            <h3 class="category-title">Comedor</h3>
+                            <p class="bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi unde impedit nam eveniet veniam natus soluta ab provident neque nemo.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cocinas -->
+                <div class="col-6 cover-section" style="background-image: url('./img/Home/cocina.jpg')">
+                    <div class="row align-items-center justify-content-center h-100">
+                        <div class="col-10 text-center">
+                            <h3 class="category-title">Cocina</h3>
+                            <p class="bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi unde impedit nam eveniet veniam natus soluta ab provident neque nemo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="row">
+                <!-- Niños -->
+                <div class="col-6 cover-section" style="background-image: url('./img/Home/ninos.jpg')">
+                    <div class="row align-items-center justify-content-center h-100">
+                        <div class="col-10 text-center">
+                            <h3 class="category-title">Niños</h3>
+                            <p class="bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi unde impedit nam eveniet veniam natus soluta ab provident neque nemo.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Accesorios -->
+                <div class="col-6 cover-section" style="background-image: url('./img/Home/accesorios.jpg')">
+                    <div class="row align-items-center justify-content-center h-100">
+                        <div class="col-10 text-center">
+                            <h3 class="category-title">Accesorios</h3>
+                            <p class="bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi unde impedit nam eveniet veniam natus soluta ab provident neque nemo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="row justify-content-center py-5">
+                <div class="col-md-10">
+                    <h4 class="bold">Nuestra selección</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center pb-4">
+                <div class="col-md-5">
+                    <div class="card">
+                        <img src="./img/Home/producto.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto</h5>
+                            <h6>$400.00</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card">
+                        <img src="./img/Home/producto2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 2</h5>
+                            <h6>$400.00</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer footer-white footer-big ">
+            <div class="row justify-content-center bg-azul py-5">
+                <div class="col-12 col-lg-6 text-center">
+                    <img src="{{ asset('img/logo.svg') }}" class="footer-logo text-center" alt="">
+                    <div class="row justify-content-around py-3">
+                        <a href="/nosotros.html" class="footer-link">nosotros</a>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-5">
+                    <div class="row justify-content-around py-2">
+                        <a class="btn" href="{{ route('front.aviso') }}">Aviso de Privacidad </a>
+                        <a class="btn" href="{{ route('front.terminos') }}">Términos y Condiciones </a>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+        
+    </div>
+    
+    
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
