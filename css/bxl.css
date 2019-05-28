@@ -21,8 +21,14 @@
 
 
 /* Colores */
-.color-azul{
-    color: #22498F;
+.color-gris{
+    color: #BFBEBE;
+}
+.color-gris-2{
+    color: #707070;
+}
+.color-naranja{
+    color: #E23501;
 }
 
 .bg-gris{
@@ -34,7 +40,7 @@
 }
 
 .bg-naranja{
-    background-color: #FF5C0A;
+    background-color: #E23501;
 }
 
 /* Altura */
@@ -70,11 +76,10 @@
 }
 
 
-
 /* Body */
 body{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /* Headers */
@@ -139,7 +144,7 @@ body{
 
 /* Navbar */
 #navbarNav .nav-link{
-    color: #ffffff;
+    color: #707070;
     font-weight: 700;
 }
 
