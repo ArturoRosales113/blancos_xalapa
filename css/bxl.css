@@ -61,18 +61,8 @@
 }
 
 
-/* Botones */
-.aqp-btn-primary{
-    background-color: #FF5C0A;
-    border-radius: 1em;
-    color: #ffffff;
-    padding: .5em;
-}
-.aqp-btn-secondary{
-    background-color: #FFB600;
-    border-radius: 1em;
-    color: #ffffff;
-    padding: .5em;
+#menu-to-menu li{
+    padding: 0em 1em;
 }
 
 
@@ -81,7 +71,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
 }
-
+body .customize-support{
+    margin-top: 37px;
+}
 /* Headers */
 .cover-section{
     background-size: cover;
